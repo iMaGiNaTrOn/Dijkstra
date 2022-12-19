@@ -62,5 +62,8 @@ class Grafo:
         for i in vizinhos:
             print(i)
             
-    
-    
+    def retorna_nodos(self):
+        nodos = []
+        for i in self.m_vertices: nodos.append(i)
+        return nodos
+            
